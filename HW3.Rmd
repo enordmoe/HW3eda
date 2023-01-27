@@ -1,8 +1,8 @@
 ---
-title: "Math 295: Homework 3"
+title: "Math 265: Homework 3"
 subtitle: "Exploratory Data Analysis"
 author: "Be Sure to Put Your Name Here"  
-date: "Due February 09, 2021"
+date: "Due February 9, 2023"
 output: 
   github_document: 
     toc: true
