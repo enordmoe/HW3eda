@@ -1,28 +1,25 @@
-Math 295: Homework 3
-================
-Be Sure to Put Your Name Here
-Due February 9, 2021
+# Math 265: Homework 3
+Your Name
+2024-02-18
 
-  - [Introduction](#introduction)
-  - [Movie Data Analysis](#movie-data-analysis)
-      - [Data Overview](#data-overview)
-      - [Exploratory Data Analysis](#exploratory-data-analysis)
-      - [Wrangling the Movie Data](#wrangling-the-movie-data)
+- [Introduction](#introduction)
+- [Movie Data Analysis](#movie-data-analysis)
+  - [Data Overview](#data-overview)
+  - [Exploratory Data Analysis](#exploratory-data-analysis)
+  - [Wrangling the Movie Data](#wrangling-the-movie-data)
 
 # Introduction
 
 Use this document as a template for writing up your assignment. You
 should delete this line before submitting. Remove the `eval=FALSE`
 option on line 16 so that your chunks will be executed when you knit
-this file. Also, remember that you can adjust the default figure height
-and width dimensions in the YAML section at the top or at the code chunk
-level.
+this file.
 
 # Movie Data Analysis
 
 In this analysis, you will investigate IMDB and Rotten Tomatoes ratings
 for a random sample of 651 movies. The following command loads the data
-into a dataframe named `movies.`.\[1\]
+into a dataframe named `movies.`.[^1]
 
 ``` r
 # load the data from an R binary data file into the data frame movies 
@@ -44,13 +41,13 @@ load(file = "data/movies.Rdata")
 
 **Answer:**
 
-3.  Make a histogram of **imdb\_rating**.
+3.  Make a histogram of **imdb_rating**.
 
 **Answer:**
 
-4.  Repeat the previous histogram but this time pick a binwidth such
-    that each bar will correspond to just one distinct value of the
-    `imdb_rating` variable.
+4.  Repeat the previous histogram but this time set bins such that the
+    bars have width 1 and are centered at whole number values of
+    `imdb_rating` (1, 2, 3, …).
 
 **Answer:**
 
@@ -59,9 +56,9 @@ load(file = "data/movies.Rdata")
 
 **Answer:**
 
-6.  Create a scatterplot comparing the Rotten Tomatoes `critic_score`
-    (y) to imdb ratings (x).Add a smoothing line (no standard error
-    band). If necessary, add jittering to avoid overplotting.
+6.  Create a scatterplot with the Rotten Tomatoes `critic_score` (y) and
+    corresponding imdb ratings (x). Add a smoothing line (no standard
+    error band). If necessary, add jittering to avoid overplotting.
 
 **Answer:**
 
@@ -125,7 +122,7 @@ load(file = "data/movies.Rdata")
 
 **Answer:**
 
-1.  This problem adapts a tutorial prepared by Iain Carmichael and makes
-    use of the movies data generously provided by Mine Cetinkaya-Rundel.
-    The original data set is available at her
-    [website](http://www2.stat.duke.edu/~mc301/data/movies.html).
+[^1]: This problem adapts a tutorial prepared by Iain Carmichael and
+    makes use of the [movies
+    data](http://www2.stat.duke.edu/~mc301/data/movies.html) generously
+    provided by Mine Cetinkaya-Rundel.
