@@ -56,9 +56,10 @@ load(file = "data/movies.Rdata")
 
 **Answer:**
 
-6.  Create a scatterplot with the Rotten Tomatoes `critic_score` (y) and
-    corresponding imdb ratings (x). Add a smoothing line (no standard
-    error band). If necessary, add jittering to avoid overplotting.
+6.  Create a scatterplot with the Rotten Tomatoes `critics_score` (y)
+    and corresponding imdb ratings (x). Add a smoothing line (no
+    standard error band). If necessary, add jittering to avoid
+    overplotting.
 
 **Answer:**
 

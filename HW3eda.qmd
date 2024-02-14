@@ -78,7 +78,7 @@ e.  Write two or three sentences summarizing your observations about the `imdb_r
 
 **Answer:**
 
-f.  Create a scatterplot with the Rotten Tomatoes `critic_score` (y) and corresponding imdb ratings (x). Add a smoothing line (no standard error band). If necessary, add jittering to avoid overplotting.
+f.  Create a scatterplot with the Rotten Tomatoes `critics_score` (y) and corresponding imdb ratings (x). Add a smoothing line (no standard error band). If necessary, add jittering to avoid overplotting.
 
 **Answer:**
 
