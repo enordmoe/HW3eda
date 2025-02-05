@@ -2,7 +2,7 @@
 title: "Math 265: Homework 3"
 subtitle: "Exploratory Data Analysis"
 author: "Your Name"
-date: "Due Sunday, February 18, 2024"
+date: "Due Sunday, February 15, 2025"
 format: 
     gfm: 
       toc: true
@@ -29,7 +29,7 @@ Use this document as a template for writing up your assignment. You should delet
 
 # Movie Data Analysis
 
-In this analysis, you will investigate IMDB and Rotten Tomatoes ratings for a random sample of 651 movies. The following command loads the data into a dataframe named `movies.`.[^1]
+In this analysis, you will investigate IMDB and Rotten Tomatoes ratings for a random sample of 651 movies just in time for the Academy Awards in early March! The following command loads the data into a dataframe named `movies`.[^1]
 
 [^1]: This problem adapts a tutorial prepared by Iain Carmichael and makes use of the [movies data](http://www2.stat.duke.edu/~mc301/data/movies.html) generously provided by Mine Cetinkaya-Rundel.
 

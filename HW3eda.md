@@ -1,6 +1,6 @@
 # Math 265: Homework 3
 Your Name
-2024-02-18
+2025-02-15
 
 - [Introduction](#introduction)
 - [Movie Data Analysis](#movie-data-analysis)
@@ -18,8 +18,9 @@ this file.
 # Movie Data Analysis
 
 In this analysis, you will investigate IMDB and Rotten Tomatoes ratings
-for a random sample of 651 movies. The following command loads the data
-into a dataframe named `movies.`.[^1]
+for a random sample of 651 movies just in time for the Academy Awards in
+early March! The following command loads the data into a dataframe named
+`movies`.[^1]
 
 ``` r
 # load the data from an R binary data file into the data frame movies 
